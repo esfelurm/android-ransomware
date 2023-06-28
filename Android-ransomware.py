@@ -12,7 +12,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 rd, gn, lgn, yw, lrd, be, pe = '\033[00;31m', '\033[00;32m', '\033[01;32m', '\033[01;33m', '\033[01;31m', '\033[00;34m', '\033[01;35m'
 cn = '\033[00;36m'
-main_path = '/sdcard/علوم'
+main_path = '/sdcard/'
 encryption_key = b'63eefbd45d89e8c91f24b609f7539942'
 os.system("clear")
 print (f"""{lrd}
