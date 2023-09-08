@@ -34,7 +34,7 @@ def clear():
 	elif 'Windows' not in platform.uname():
 		SY("clear")
 		
-main_path = '/sdcard/DDOS'
+main_path = '/sdcard'
 random_number = randint(1, 100000000000)
 clear()
 try:r = requests.post("https://google.com")
