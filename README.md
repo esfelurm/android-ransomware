@@ -4,11 +4,18 @@ This is a ransomware written in Python language, for Android; which can find the
 
 `Warning !`📛 " This ransomware is written for educational purposes. Any misuse of this tool is your responsibility "
 
+## New description :
+- Getting system specifications and sending to Telegram bot
+- Send zombie id
+- Sending the infected date in Iran/UK time
+- Send password (Random)
+
+
 # Screenshot after encryption
 <img src="https://s8.uupload.ir/files/screenshot_20230628-160726_pydroid_3_6shz.jpg">
 
 
-- Module used : crypto => pycryptodome
+- Module used , pip install {} : ```pycryptodome,hashlib,requests,jdatetime,telfhk0```
 
 ### Windows & Linux ransomware 
 <a href="https://github.com/esfelurm/EsFeLuRm/blob/main/ransomware.py"> ransomware => windows - Linux</a>
