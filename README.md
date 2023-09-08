@@ -7,7 +7,7 @@ This is a ransomware written in Python language, for Android; which can find the
 ## New description :
 - Getting system specifications and sending to Telegram bot
 - Send zombie id
-- Sending the infected date in Iran/UK time
+- Sending the infected date in Ir/Us time
 - Send password (Random)
 
 
